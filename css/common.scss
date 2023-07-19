@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+$main-color: #022257;
+$second-color: #75CFED;
+$third-color: #8DABCC;
+$gray-bd: #bdbdbd;
+
+
+body {
+    font-family: 'Exo', 'Noto Sans TC', sans-serif;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: $main-color;
+    top: 0;
+    left: 0;
+    &_inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    &_nav {
+        position: absolute;
+        height: 100%;
+        &_first {
+            height: 100%;
+            >li {
+                margin: 0 20px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                >a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
