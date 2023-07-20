@@ -79,3 +79,11 @@ $(".btn-top").click(function(){
 $(".tab-common-active").click(function(){
     $(this).parents(".tabBox").find(".tab-common").slideToggle(300);
 })
+
+$(".btn-accept").click(function(){
+    $(".cookies").fadeOut(300);
+})
+
+$(".add-inquiry").click(function(){
+    $(".header_inquiry_add").fadeIn(300).delay(2000).fadeOut(300);
+})
