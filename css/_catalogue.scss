@@ -1,0 +1,180 @@
+.catalogue {
+    position: relative;
+    .swiper-slide {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &_swiper {
+        &_pic {
+            width: 35%;
+            padding-bottom: calc(35% * 1.44);
+            position: relative;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            >img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+        &_text {
+            width: 65%;
+            padding-left: 75px;
+            padding-top: 30px;
+            h2 {
+                font-size: 32px;
+                font-weight: 600;
+                margin-bottom: 35px;
+            }
+            .btn-download {
+                width: 176px;
+                height: 36px;
+                padding: 0;
+                transition: $transition;
+                position: relative;
+                display: block;
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    transition: $transition;
+                    path {
+                        transition: $transition;
+                    }
+                }
+                &_text {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    width: 100%;
+                    img {
+                        width: 15px;
+                        margin-right: 8px;
+                    }
+                    span {
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 500;
+                        // text-align: center;
+                        display: block;
+                    }
+
+                }
+                &:hover {
+                    transform: scale(1.2);
+                    svg {
+                        path {
+                            fill: $second-color;
+                        }
+                    }
+                }
+            }
+        }
+        &-small {
+            position: absolute;
+            width: calc(65% - 75px);
+            right: 0;
+            bottom: 0;
+            z-index: 4;
+        }
+        &_arrow {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            &_item {
+                cursor: pointer;
+                svg {
+                    width: 10px;
+                    height: 16px;
+                    path {
+                        transition: $transition;
+                    }
+                }
+            }
+            &_line {
+                width: 1px;
+                height: 16px;
+                background-color: #D2D2D2;
+                margin: 0 15px;
+            }
+        }
+    }
+    &_swiperThumb {
+        &_pic {
+            width: 100%;
+            padding-bottom: 144%;
+            position: relative;
+            >img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+        &_mask {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255,255,255, 0.6);
+            top: 0;
+            left: 0;
+            transition: $transition;
+        }
+        .swiper-slide-thumb-active {
+            .catalogue_swiperThumb_mask {
+                opacity: 0;
+            }
+        }
+    }
+    @media screen and (max-width: 991px) {
+        &_swiper {
+            &_text {
+                padding-left: 30px;
+            }
+            &-small {
+                position: absolute;
+                width: calc(65% - 40px);
+                right: 0;
+                bottom: 0;
+                z-index: 4;
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &_swiper {
+            &-small {
+                position: static;
+                width: 100%;
+                margin-top: 40px;
+            }
+            &_text {
+                h2 {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 400px) {
+        &_swiper {
+            &_pic {
+                width: 50%;
+                padding-bottom: calc(50% * 1.44);
+                margin: 0 auto 20px;
+            }
+            &_text {
+                width: 100%;
+                padding: 0;
+                h2 {
+                    text-align: center;
+                }
+                .btn-download {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

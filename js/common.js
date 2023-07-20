@@ -71,3 +71,11 @@ $(".header_menu").click(function(){
     $(this).toggleClass("active");
     $(".header_nav").toggleClass("active");
 })
+
+$(".btn-top").click(function(){
+    $("html, body").animate({scrollTop: 0},300);
+})
+
+$(".tab-common-active").click(function(){
+    $(this).parents(".tabBox").find(".tab-common").slideToggle(300);
+})

@@ -307,18 +307,12 @@
         transform: translate(-50%, -50%);
         max-width: 410px;
         width: 100%;
-        display: flex;
-        border-top: 1px solid rgba(255,255,255,0.58);
-        border-bottom: 1px solid rgba(255,255,255,0.58);
+        border-color: rgba(255,255,255,0.58);
         li {
             width: 50%;
             .nav-link {
-                height: 65px;
                 width: 100%;
                 color: #fff;
-                font-weight: 500;
-                position: relative;
-                padding: 0;
                 &#pills-design-tab {
                     font-size: 16px;
                 }
@@ -326,26 +320,10 @@
                     font-size: 20px;
                 }
                 &.active {
-                    background-color: transparent;
                     color: $yellow;
-                    &::after {
-                        height: 8px;
-                    }
                 }
                 &::after {
-                    position: absolute;
-                    content: "";
-                    width: 55px;
-                    height: 8px;
                     background-image: url(../img/home-product_tab.svg);
-                    background-size: contain;
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    top: 100%;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    height: 0;
-                    transition: $transition;
                 }
             }
         }

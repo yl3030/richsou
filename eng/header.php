@@ -2,75 +2,63 @@
     <div class="header_inner d-flex align-items-center justify-content-lg-end justify-content-between">
         <nav class="header_nav">
             <ul class="header_nav_first d-lg-flex align-items-center justify-content-center">
-                <li><a href="">About Us</a></li>
+                <li><a href="./about.php" class="<?php if($pageName == "About Us") echo "active" ?>">About Us</a></li>
                 <li class="drop">
-                    <a data-link="media">Media</a>
+                    <a data-link="./news.php" class="<?php if($pageName == "Media") echo "active" ?>">Media</a>
                     <ul class="header_nav_second">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-3 col-12">
                                     <ul class="header_nav_third">
-                                        <li><a data-target="#header_nav_news" data-link="news" class="active">News</a></li>
-                                        <li><a data-target="#header_nav_exhibitions" data-link="exhibitions">Exhibitions</a></li>
-                                        <li><a data-target="#header_nav_catalogue" data-link="catalogue">Catalogue</a></li>
-                                        <li><a data-target="#header_nav_video" data-link="video">Video</a></li>
-                                        <li><a data-target="#header_nav_blog" data-link="blog">Blog</a></li>
+                                        <li><a data-target="#header_nav_news" data-link="./news.php" class="active">News</a></li>
+                                        <li><a data-target="#header_nav_exhibitions" data-link="./news.php">Exhibitions</a></li>
+                                        <li><a data-target="#header_nav_catalogue" data-link="./catalogue.php">Catalogue</a></li>
+                                        <li><a data-target="#header_nav_video" data-link="./video.php">Video</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-9 d-lg-block d-none">
                                     <ul class="header_nav_forth row active" id="header_nav_news">
                                         <li class="col-6">
-                                            <a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                                            <a href="./news-detail.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">Pellentesque hendrerit risus vitae massa efficitur malesuada non nec lacus.</a>
+                                            <a href="./news-detail.php">Pellentesque hendrerit risus vitae massa efficitur malesuada non nec lacus.</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">Proin a ante sit amet metus iaculis condimentum.</a>
+                                            <a href="./news-detail.php">Proin a ante sit amet metus iaculis condimentum.</a>
                                         </li>
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_exhibitions">
                                         <li class="col-6">
-                                            <a href="">Mauris malesuada at augue vitae congue</a>
+                                            <a href="./news-detail.php">Mauris malesuada at augue vitae congue</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">Nulla dui ipsum, fermentum viverra enim in, feugiat porta odio.</a>
+                                            <a href="./news-detail.php">Nulla dui ipsum, fermentum viverra enim in, feugiat porta odio.</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">Phasellus quis erat ac lectus sollicitudin feugiat non at ipsum. Proin dui augue, elementum id dolor quis, laoreet gravida lacus.</a>
+                                            <a href="./news-detail.php">Phasellus quis erat ac lectus sollicitudin feugiat non at ipsum. Proin dui augue, elementum id dolor quis, laoreet gravida lacus.</a>
                                         </li>
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_catalogue">
                                         <li class="col-6">
-                                            <a href="">Sed odio ipsum, vestibulum sit amet erat nec, dignissim pellentesque mi.</a>
+                                            <a href="" download>Sed odio ipsum, vestibulum sit amet erat nec, dignissim pellentesque mi.</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">Vivamus id ex vestibulum, tempus enim sit amet, dignissim nunc.</a>
+                                            <a href="" download>Vivamus id ex vestibulum, tempus enim sit amet, dignissim nunc.</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">Aliquam tincidunt non enim eu semper. Suspendisse potenti.</a>
+                                            <a href="" download>Aliquam tincidunt non enim eu semper. Suspendisse potenti.</a>
                                         </li>
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_video">
                                         <li class="col-6">
-                                            <a href="">Integer quis libero ac mi vehicula ultrices. Curabitur risus diam,</a>
+                                            <a href="https://www.youtube.com/watch?v=JGR1h2xYHh8&t=26s&ab_channel=TaiwanExcellence%E5%8F%B0%E7%81%A3%E7%B2%BE%E5%93%81" target="_blank">Integer quis libero ac mi vehicula ultrices. Curabitur risus diam,</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">ultrices ac pulvinar nec, porta vitae velit. Donec interdum risus a eleifend gravida. Mauris eget aliquam dolor,</a>
+                                            <a href="https://www.youtube.com/watch?v=JGR1h2xYHh8&t=26s&ab_channel=TaiwanExcellence%E5%8F%B0%E7%81%A3%E7%B2%BE%E5%93%81" target="_blank">ultrices ac pulvinar nec, porta vitae velit. Donec interdum risus a eleifend gravida. Mauris eget aliquam dolor,</a>
                                         </li>
                                         <li class="col-6">
-                                            <a href="">id interdum sapien. Vivamus viverra massa dui, in posuere ante</a>
-                                        </li>
-                                    </ul>
-                                    <ul class="header_nav_forth row" id="header_nav_blog">
-                                        <li class="col-6">
-                                            <a href="">varius et. Maecenas non mi sollicitudin, scelerisque risus ut, vulputate neque</a>
-                                        </li>
-                                        <li class="col-6">
-                                            <a href="">Proin vestibulum maximus nunc, a pretium velit eleifend at. Phasellus imperdiet</a>
-                                        </li>
-                                        <li class="col-6">
-                                            <a href="">metus nec maximus tristique. Donec scelerisque varius</a>
+                                            <a href="https://www.youtube.com/watch?v=JGR1h2xYHh8&t=26s&ab_channel=TaiwanExcellence%E5%8F%B0%E7%81%A3%E7%B2%BE%E5%93%81" target="_blank">id interdum sapien. Vivamus viverra massa dui, in posuere ante</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -80,50 +68,50 @@
                 </li>
                 <li class="header_nav_space d-lg-block d-none"></li>
                 <li class="drop">
-                    <a data-link="product">Products</a>
+                    <a data-link="./product.php" class="<?php if($pageName == "Product") echo "active" ?>">Products</a>
                     <ul class="header_nav_second">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-3 col-12">
                                     <ul class="header_nav_third">
-                                        <li><a data-target="#header_nav_equipment" data-link="equipment" class="active">Equipment</a></li>
-                                        <li><a data-target="#header_nav_abrasives" data-link="abrasives">Abrasives</a></li>
-                                        <li><a data-target="#header_nav_spareparts" data-link="spareparts">Spare parts</a></li>
-                                        <li><a href="#">Used machines</a></li>
+                                        <li><a data-target="#header_nav_equipment" data-link="./product-list.php" class="active">Equipment</a></li>
+                                        <li><a data-target="#header_nav_abrasives" data-link="./product-list.php">Abrasives</a></li>
+                                        <li><a data-target="#header_nav_spareparts" data-link="./product-list.php">Spare parts</a></li>
+                                        <li><a href="./product-list.php">Used machines</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-9 d-lg-block d-none">
                                     <ul class="header_nav_forth row active" id="header_nav_equipment">
                                         <li class="col-4">
-                                            <a href="">Sand Blast Equipment</a>
+                                            <a href="./product-list-inner.php">Sand Blast Equipment</a>
                                         </li>
                                         <li class="col-4">
-                                            <a href="">Shot Blast Equipment</a>
+                                            <a href="./product-list-inner.php">Shot Blast Equipment</a>
                                         </li>
                                         <li class="col-4">
-                                            <a href="">RICH SOU Shot Peening Equipment</a>
+                                            <a href="./product-list-inner.php">RICH SOU Shot Peening Equipment</a>
                                         </li>
                                         <li class="col-4">
-                                            <a href="">Blast Room</a>
+                                            <a href="./product-list-inner.php">Blast Room</a>
                                         </li>
                                         <li class="col-4">
-                                            <a href="">Engraving Machine & Grinder</a>
+                                            <a href="./product-list-inner.php">Engraving Machine & Grinder</a>
                                         </li>
                                         <li class="col-4">
-                                            <a href="">Sand suction equipment</a>
+                                            <a href="./product-list-inner.php">Sand suction equipment</a>
                                         </li>
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_abrasives">
                                         <li class="col-4">
-                                            <a href="">Abrasives material</a>
+                                            <a href="./product-list-inner.php">Abrasives material</a>
                                         </li>
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_spareparts">
                                         <li class="col-4">
-                                            <a href="">Spare parts</a>
+                                            <a href="./product-list-inner.php">Spare parts</a>
                                         </li>
                                         <li class="col-4">
-                                            <a href="">Carbide Borate Nozzle</a>
+                                            <a href="./product-list-inner.php">Carbide Borate Nozzle</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -131,7 +119,7 @@
                         </div>
                     </ul>
                 </li>
-                <li><a href="">Contact</a></li>
+                <li><a href="./contact.php" class="<?php if($pageName == "Contact") echo "active" ?>">Contact</a></li>
             </ul>
             <div class="header_nav_lang d-lg-none d-flex align-items-center">
                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -151,7 +139,7 @@
                 </ul>
             </div>
         </nav>
-        <a href="" class="header_logo">
+        <a href="./index.php" class="header_logo">
             <img src="../img/logo.png" alt="">
         </a>
         <div class="header_menu d-lg-none">
@@ -213,7 +201,7 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="header_inquiry">
+            <a href="./inquirt.php" class="header_inquiry">
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M24.375 8.38125C24.3606 8.14249 24.2556 7.91824 24.0813 7.75441C23.907 7.59058 23.6767 7.49957 23.4375 7.5H20.625C20.625 6.00816 20.0324 4.57742 18.9775 3.52252C17.9226 2.46763 16.4918 1.875 15 1.875C13.5082 1.875 12.0774 2.46763 11.0225 3.52252C9.96763 4.57742 9.375 6.00816 9.375 7.5H6.5625C6.32331 7.49957 6.09299 7.59058 5.91871 7.75441C5.74442 7.91824 5.63935 8.14249 5.625 8.38125L4.6875 23.7937C4.6875 24.6938 5.04505 25.557 5.68151 26.1935C6.31796 26.8299 7.18117 27.1875 8.08125 27.1875H21.9187C22.3688 27.1863 22.8142 27.0958 23.2291 26.9213C23.644 26.7468 24.0201 26.4918 24.3358 26.1709C24.6514 25.85 24.9003 25.4697 25.0679 25.052C25.2356 24.6344 25.3187 24.1875 25.3125 23.7375L24.375 8.38125ZM15 3.75C15.9946 3.75 16.9484 4.14509 17.6516 4.84835C18.3549 5.55161 18.75 6.50544 18.75 7.5H11.25C11.25 6.50544 11.6451 5.55161 12.3483 4.84835C13.0516 4.14509 14.0054 3.75 15 3.75ZM21.9187 25.3125H8.08125C7.6866 25.3176 7.30587 25.1669 7.02157 24.8931C6.73728 24.6193 6.57233 24.2446 6.5625 23.85L7.44375 9.375H9.375V12.1875C9.375 12.4361 9.47377 12.6746 9.64959 12.8504C9.8254 13.0262 10.0639 13.125 10.3125 13.125C10.5611 13.125 10.7996 13.0262 10.9754 12.8504C11.1512 12.6746 11.25 12.4361 11.25 12.1875V9.375H18.75V12.1875C18.75 12.4361 18.8488 12.6746 19.0246 12.8504C19.2004 13.0262 19.4389 13.125 19.6875 13.125C19.9361 13.125 20.1746 13.0262 20.3504 12.8504C20.5262 12.6746 20.625 12.4361 20.625 12.1875V9.375H22.5562L23.4375 23.7937C23.4387 23.9935 23.4003 24.1916 23.3244 24.3764C23.2485 24.5612 23.1367 24.7292 22.9954 24.8704C22.8542 25.0117 22.6862 25.1235 22.5014 25.1994C22.3166 25.2753 22.1185 25.3137 21.9187 25.3125Z" fill="#0E6FC8"/>
                 </svg>

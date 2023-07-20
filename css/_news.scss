@@ -1,0 +1,257 @@
+.news-list {
+    margin-bottom: 35px;
+    .row {
+        margin-left: -15px;
+        margin-right: -15px;
+        >div {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    &_item {
+        display: block;
+        margin-bottom: 45px;
+        h3 {
+            font-size: 20px;
+            margin: 0;
+            color: #4D4D4D;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+        &:hover {
+            .news-list_pic {
+                >img {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    &_pic {
+        width: 100%;
+        padding-bottom: 66.67%;
+        position: relative;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        margin-bottom: 17px;
+        overflow: hidden;
+        >img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            transition: $transition;
+        }
+    }
+    &_date {
+        position: absolute;
+        width: 65px;
+        height: 76px;
+        background-image: url(../img/news-date.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        top: 0;
+        left: 15px;
+        p {
+            margin: 0;
+            color: #fff;
+            text-align: center;
+            &.day {
+                font-size: 32px;
+                font-weight: 600;
+                // line-height: 1;
+            }
+            &.month {
+                font-size: 12px;
+                transform: translateY(-8px);
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .row {
+            margin-left: -8px;
+            margin-right: -8px;
+            >div {
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+        }
+        &_item {
+            margin-bottom: 30px;
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &_date {
+            width: 55px;
+            height: 64px;
+            p {
+                &.day {
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                &.month {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 450px) {
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+            >div {
+                padding-left: 0;
+                padding-right: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.news-detail {
+    &_pic {
+        width: 725px;
+        mask-image: url(../img/news-mask.svg);
+        mask-repeat: no-repeat;
+        mask-position: center;
+        // box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        &_mask {
+            display: none;
+            position: absolute;
+            height: 100%;
+            top: 0;
+            right: 0;
+        }
+    }
+    &_head {
+        position: relative;
+        margin-top: 100px;
+    }
+    &_title {
+        // position: absolute;
+        width: 100%;
+        background-color: $main-color;
+        padding: 80px calc((100% - 1320px) / 2) 80px 800px;
+        // top: 50%;
+        // right: 0;
+        // transform: translateY(-50%);
+        h2 {
+            color: #fff;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+    }
+    &_date {
+        color: $third-color;
+        margin-bottom: 40px;
+    }
+    &_page {
+        a {
+            color: $third-color;
+            border-color: $third-color;
+            &::after {
+                background-color: $third-color;
+            }
+        }
+    }
+    &_content {
+        padding: 0 20px;
+        max-width: 1000px;
+        width: 100%;
+        margin: 100px auto 0;
+        p {
+            line-height: 1.6;
+            text-align: justify;
+        }
+    }
+    @media screen and (max-width: 1399px) {
+        &_pic {
+            width: 650px;
+            mask-image: url(../img/news-mask-650.svg);
+        }
+        &_title {
+            padding-right: calc((100% - 1140px) / 2);
+            padding-left: 700px;
+        }
+    }
+    @media screen and (max-width: 1199px) {
+        &_pic {
+            width: 550px;
+            mask-image: url(../img/news-mask-550.svg);
+        }
+        &_title {
+            padding: 50px 40px 50px 600px;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        &_pic {
+            width: 400px;
+            mask-image: url(../img/news-mask-400.svg);
+            top: -55px;
+            transform: none;
+        }
+        &_title {
+            padding: 50px 40px 50px 450px;
+            transform: none;
+            top: 20%;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &_title {
+            padding: 50px 20px 50px 430px;
+            transform: none;
+            h2 {
+                font-size: 24px;
+            }
+        }
+    }
+    @media screen and (max-width: 700px) {
+        &_pic {
+            mask-image: none;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            &-box {
+                width: 100%;
+                position: relative;
+                padding-bottom: 66.67%;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    height: 100%;
+                    top: 0;
+                    right: 0;
+                }
+            }
+            &_mask {
+                display: block;
+            }
+        }
+        &_title {
+            padding: 40px 20px;
+        }
+        &_head {
+            margin-top: 0;
+        }
+        &_content {
+            margin-top: 40px;
+        }
+    }
+}
