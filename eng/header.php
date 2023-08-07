@@ -19,6 +19,9 @@
                                 <div class="col-9 d-lg-block d-none">
                                     <ul class="header_nav_forth row active" id="header_nav_news">
                                         <li class="col-6">
+                                            <a href="./news.php">All</a>
+                                        </li>
+                                        <li class="col-6">
                                             <a href="./news-detail.php">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
                                         </li>
                                         <li class="col-6">
@@ -29,6 +32,9 @@
                                         </li>
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_exhibitions">
+                                        <li class="col-6">
+                                            <a href="./news.php">All</a>
+                                        </li>
                                         <li class="col-6">
                                             <a href="./news-detail.php">Mauris malesuada at augue vitae congue</a>
                                         </li>
@@ -41,6 +47,9 @@
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_catalogue">
                                         <li class="col-6">
+                                            <a href="./catalogue.php">All</a>
+                                        </li>
+                                        <li class="col-6">
                                             <a href="" download>Sed odio ipsum, vestibulum sit amet erat nec, dignissim pellentesque mi.</a>
                                         </li>
                                         <li class="col-6">
@@ -51,6 +60,9 @@
                                         </li>
                                     </ul>
                                     <ul class="header_nav_forth row" id="header_nav_video">
+                                        <li class="col-6">
+                                            <a href="./video.php">All</a>
+                                        </li>
                                         <li class="col-6">
                                             <a href="https://www.youtube.com/watch?v=JGR1h2xYHh8&t=26s&ab_channel=TaiwanExcellence%E5%8F%B0%E7%81%A3%E7%B2%BE%E5%93%81" target="_blank">Integer quis libero ac mi vehicula ultrices. Curabitur risus diam,</a>
                                         </li>
@@ -82,6 +94,9 @@
                                 </div>
                                 <div class="col-9 d-lg-block d-none">
                                     <ul class="header_nav_forth row active" id="header_nav_equipment">
+                                        <li class="col-4">
+                                            <a href="./product.php">All</a>
+                                        </li>
                                         <li class="col-4">
                                             <a href="./product-list-inner.php">Sand Blast Equipment</a>
                                         </li>

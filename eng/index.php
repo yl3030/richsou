@@ -17,6 +17,12 @@
                 <h1 data-aos="fade-up" data-aos-duration="1000">TAIWAN'S  <br class="d-md-none d-sm-block d-none">LEADING <br class="d-sm-block d-none">SURFACE <br class="d-md-none">PREPARATION <br class="d-sm-block d-none">TECHNOLOGY，</h1>
                 <h2 data-aos="fade-down" data-aos-duration="1000">TAIWAN EXCELLENCE AWARD, <br class="d-md-none d-sm-block d-none">ISO-9001, CE CERTIFIED</h2>
             </div>
+            <div class="swiper-container home-banner_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../img/product-1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="../img/product-2.png" alt=""></div>
+                </div>     
+            </div>
         </div>
         <div class="home_service">
             <div class="row align-items-xxl-start align-items-center">
@@ -76,7 +82,7 @@
         </div>
         <div class="home_product">
             <div class="container">
-                <div class="home_product_title">
+                <div class="home_product_title" data-aos="fade-up" data-aos-duration="1000">
                     <h2>Product</h2>
                     <ul class="nav nav-pills tab-common home_product_tab" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -87,7 +93,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="home_product_content">
+                <div class="home_product_content" data-aos="fade-up" data-aos-duration="1000">
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-design" role="tabpanel" aria-labelledby="pills-home-tab">
                             <div class="row">
@@ -349,6 +355,20 @@
 
     <?php include("./footer.php") ?>
     <?php include("../include/script.php") ?>
+
+    <script>
+        var swiper = new Swiper(".home-banner_slider", {
+            slidesPerView: 1,
+            loop: true,
+            speed: 800,        
+            observeParents:true,
+            observer:true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        })
+    </script>
 </body>
 </html>
     
