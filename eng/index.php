@@ -24,23 +24,32 @@
                     <div class="home_service_text">
                         <h2 data-aos="fade-up" data-aos-duration="1000">Service</h2>
                         <img class="home_service_pic d-lg-none" src="../img/home_service_pic.png" alt="">
-                        <p data-aos="fade-down" data-aos-duration="1000">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel molestie odio. Sed ullamcorper rhoncus velit, sit amet tristique lacus sodales ut. Quisque imperdiet euismod libero in aliquam. Nulla non posuere purus. Duis nec dui purus. Quisque bibendum orci quis odio egestas, eget ultricies mi iaculis.
-                        </p>
                         <div class="divide"></div>
                         <div class="home_service_icon">
                             <div class="row">
                                 <div class="col-4">
-                                    <img src="../img/icon_spinning.svg" alt="">
-                                    <p>Shot blasting<br>equipment</p>
+                                    <div class="home_service_icon_item" data-aos="zoom-in-up" data-aos-duration="600">
+                                        <div class="home_service_icon_content">
+                                            <img src="../img/icon_spinning.svg" alt="">
+                                            <p>Shot blasting<br>equipment</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-4">
-                                    <img src="../img/icon_support.svg" alt="">
-                                    <p>Aftermarket<br>services</p>
+                                    <div class="home_service_icon_item" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="200">
+                                        <div class="home_service_icon_content">
+                                            <img src="../img/icon_support.svg" alt="">
+                                            <p>Aftermarket<br>services</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col-4">
-                                    <img src="../img/icon_sand.svg" alt="">
-                                    <p>Sand Material</p>
+                                    <div class="home_service_icon_item" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="400">
+                                        <div class="home_service_icon_content">
+                                            <img src="../img/icon_sand.svg" alt="">
+                                            <p>Sand Material</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -48,6 +57,13 @@
                 </div>
                 <div class="col-lg-6 p-0 d-lg-block d-none">
                     <img class="home_service_pic" src="../img/home_service_pic.png" alt="">
+                </div>
+                <div class="col-12">
+                    <div class="home_service_intro">
+                        <p data-aos="fade-down" data-aos-duration="1000">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel molestie odio. Sed ullamcorper rhoncus velit, sit amet tristique lacus sodales ut. Quisque imperdiet euismod libero in aliquam. Nulla non posuere purus. Duis nec dui purus. Quisque bibendum orci quis odio egestas, eget ultricies mi iaculis.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -77,7 +93,15 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-112 Rotary Table Shot Blasting Machine</span>
+                                        <span>TSA-111 Barrel Type Shot Blasting Machine</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span>TSA-112 Table Shot Blasting Machine</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -93,7 +117,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-155 Y-Rail Hanger Type Shot Blasting Machine</span>
+                                        <span>TSA-154 Apron Type Shot Blasting Machine with Bucket</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -101,7 +125,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-206 Continuous Hanger Type Shot Blasting Machine</span>
+                                        <span><span class="highlight">HOT</span>TSA-155 Y-Rail Hanger Type Shot Blasting Machine</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -109,7 +133,23 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-239 Chain Conveyor Hanger Type Shot Blasting Machine</span>
+                                        <span>TSA-157B Belt Conveyor Type Shot Blasting Machine</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span><span class="highlight">HOT</span>TSA-206 Continuous Hanger Type Shot Blasting Machine</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span><span class="highlight">HOT</span>TSA-239 Chain Conveyor Hanger Type Shot Blasting Machine</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -125,7 +165,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-241 Roller Conveyor Shot Blasting Machine</span>
+                                        <span>TSA-127 Tumble Type Sand Blasting Machine</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -141,7 +181,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-135 Rotary Indexing Type Blasting Machine</span>
+                                        <span><span class="highlight">HOT</span>TSA-133 Automatic Sand Blasting Machine for Aluminum Mole</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -149,7 +189,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-139Conveyer Type Sand Blasting Machine (Standard Type)</span>
+                                        <span><span class="highlight">HOT</span>TSA-135 Rotary Indexing Type Blasting Machine</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -157,7 +197,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-182 Apron Type Shot Blasting Machine</span>
+                                        <span>TSA-139 Conveyer Type Sand Blasting Machine (Standard Type)</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -165,7 +205,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>Other blasting machinery, shot peening machinery and so on</span>
+                                        <span><span class="highlight">HOT</span>TSA-259 Auto Recovery System Blast Room</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -177,7 +217,7 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-139Conveyer Type Sand Blasting Machine (Standard Type)</span>
+                                        <span><span class="highlight">HOT</span>Bainite Steel Shot</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -185,7 +225,7 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>TSA-182 Apron Type Shot Blasting Machine</span>
+                                        <span><span class="highlight">HOT</span>Stainless Steel Shot</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>
@@ -193,7 +233,87 @@
                                 </div>
                                 <div class="col-lg-4 col-md-6">
                                     <a class="home_product_item" href="./product-detail.php">
-                                        <span>Other blasting machinery, shot peening machinery and so on</span>
+                                        <span>Aluminum cut wire</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span>Zinc Shot</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span>Steel Grit</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span>Brown Alumina</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span><span class="highlight">HOT</span>White Alumina</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span>Aluminum cut wire</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span>Black Alumina</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span><span class="highlight">HOT</span>Glass Beads</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span><span class="highlight">HOT</span>Ceramic Beads</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span><span class="highlight">HOT</span>Plastic Media</span>
+                                        <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <a class="home_product_item" href="./product-detail.php">
+                                        <span>Other Types of Sand Serials</span>
                                         <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000108719 1.5553L4.26778 5.8042L0.000108719 10.0531L0.754534 10.8042L5.39942 6.17975C5.60775 5.97234 5.60775 5.63606 5.39942 5.42865L0.754534 0.804199L0.000108719 1.5553Z" fill="#FFB72B"/>
                                         </svg>

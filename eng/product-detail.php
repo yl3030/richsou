@@ -47,13 +47,13 @@
                                 <div class="product-detail_swiper_btn">
                                     <div class="product-detail_swiper_pagination"></div>
                                     <div class="product-detail_swiper_arrow">
-                                        <div class="product-detail_swiper_arrow-next product-detail_swiper_arrow_item">
+                                        <div class="product-detail_swiper_arrow-prev product-detail_swiper_arrow_item">
                                             <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14 7L8 1L2 7" stroke="#0E6FC8" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"/>
                                             </svg>
                                         </div>
                                         <div class="product-detail_swiper_arrow_line"></div>
-                                        <div class="product-detail_swiper_arrow-prev product-detail_swiper_arrow_item">
+                                        <div class="product-detail_swiper_arrow-next product-detail_swiper_arrow_item">
                                             <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M14 2L8 8L2 2" stroke="#0E6FC8" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="round"/>
                                             </svg>
