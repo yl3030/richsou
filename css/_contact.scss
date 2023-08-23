@@ -1,16 +1,19 @@
 .contact {
     &_inner {
-        background-color: #fff;
-        box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+        position: relative;
+        width: 100%;
+        margin-bottom: 65px;
     }
     &_form {
         padding: 70px 120px 70px 65px;
         width: 70%;
         border-left: 5px solid $main-color;
-        background-image: url(../img/contact-style.svg);
+        // background-image: url(../img/contact-style.svg);
         background-size: auto 100%;
         background-position: right 0;
         background-repeat: no-repeat;
+        background-color: #fff;
+        box-shadow: 0 5px 30px rgba(0,0,0,0.1);
     }
     &_inform {
         width: 30%;
@@ -20,6 +23,21 @@
         flex-direction: column;
         justify-content: space-between;
         align-content: space-between;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        &::after {
+            position: absolute;
+            content: "";
+            height: 101%;
+            width: 54px;
+            background-image: url(../img/contact-style.svg);
+            background-size: contain;
+            background-position: right center;
+            background-repeat: no-repeat;
+            top: -1%;
+            right: 99.5%;
+        }
         &_list {
             &_item {
                 display: flex;
@@ -61,6 +79,25 @@
                 top: 0;
                 left: 0;
             }
+        }
+    }
+    &_map {
+        width: 100%;
+        padding-bottom: 22%;
+        position: relative;
+        iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        &_style {
+            position: absolute;
+            width: 100%;
+            height: 3.19vw;
+            bottom: -1px;
+            left: 0;
         }
     }
     @media screen and (max-width: 1199px) {
@@ -105,5 +142,12 @@
                 height: 0;
             }
         }
+    }
+}
+
+.body-contact {
+    .footer {
+        background-image: none;
+        padding-top: 50px;
     }
 }

@@ -3899,19 +3899,21 @@ input[type="number"] {
 }
 
 .contact_inner {
-  background-color: #fff;
-  -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  margin-bottom: 65px;
 }
 
 .contact_form {
   padding: 70px 120px 70px 65px;
   width: 70%;
   border-left: 5px solid #022257;
-  background-image: url(../img/contact-style.svg);
   background-size: auto 100%;
   background-position: right 0;
   background-repeat: no-repeat;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .contact_inform {
@@ -3930,6 +3932,22 @@ input[type="number"] {
           justify-content: space-between;
   -ms-flex-line-pack: justify;
       align-content: space-between;
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+.contact_inform::after {
+  position: absolute;
+  content: "";
+  height: 101%;
+  width: 54px;
+  background-image: url(../img/contact-style.svg);
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+  top: -1%;
+  right: 99.5%;
 }
 
 .contact_inform_list_item {
@@ -3990,6 +4008,28 @@ input[type="number"] {
   left: 0;
 }
 
+.contact_map {
+  width: 100%;
+  padding-bottom: 22%;
+  position: relative;
+}
+
+.contact_map iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.contact_map_style {
+  position: absolute;
+  width: 100%;
+  height: 3.19vw;
+  bottom: -1px;
+  left: 0;
+}
+
 @media screen and (max-width: 1199px) {
   .contact > .container {
     max-width: inherit;
@@ -4031,5 +4071,10 @@ input[type="number"] {
     padding-bottom: 52%;
     height: 0;
   }
+}
+
+.body-contact .footer {
+  background-image: none;
+  padding-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */

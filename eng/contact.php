@@ -9,7 +9,7 @@
 <head>
     <?php include("../include/meta.php") ?>
 </head>
-<body>
+<body class="body-contact">
     <?php include("./header.php") ?>
 
     <main class="main">
@@ -18,7 +18,7 @@
             <li><a href="./index.php">HOME</a></li>
             <li><a class="active">CONTACT</a></li>
         </ul>
-        <div class="contact mb-footer">
+        <div class="contact">
             <div class="container">
                 <div class="contact_inner d-flex flex-wrap">
                     <div class="contact_form">
@@ -162,11 +162,15 @@
                                 <span>No. 27,Jhugong 2nd Lane, Renwu District, Kaohsiung City, Taiwan</span>
                             </div>
                         </div>
-                        <div class="contact_inform_map">
+                        <!-- <div class="contact_inform_map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.4619192428017!2d120.32798057532476!3d22.711066327881113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e0fef38701bef%3A0x7d368f704e67b72b!2zODE06auY6ZuE5biC5LuB5q2m5Y2A56u55bel5LqM5be3MjfomZ8!5e0!3m2!1szh-TW!2stw!4v1689895063377!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
+            </div>
+            <div class="contact_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.4619192428017!2d120.32798057532476!3d22.711066327881113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e0fef38701bef%3A0x7d368f704e67b72b!2zODE06auY6ZuE5biC5LuB5q2m5Y2A56u55bel5LqM5be3MjfomZ8!5e0!3m2!1szh-TW!2stw!4v1689895063377!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <img class="contact_map_style" src="../img/footer_style2.svg" alt="">
             </div>
         </div>
         
