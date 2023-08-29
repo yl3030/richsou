@@ -748,6 +748,12 @@ input[type="number"] {
   color: #fff;
   margin-bottom: 20px;
   display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer_nav_title:hover {
+  color: #C6E1FF;
 }
 
 .footer_nav_subtitle {
@@ -768,6 +774,10 @@ input[type="number"] {
   color: #C6E1FF;
   font-weight: 300;
   margin-bottom: 10px;
+}
+
+.footer_nav_list a:hover {
+  color: #75CFED;
 }
 
 .footer_nav_product {
@@ -802,6 +812,45 @@ input[type="number"] {
 
 .footer_nav_abrasives, .footer_nav_spare {
   width: 20%;
+}
+
+.footer_nav_item {
+  margin-right: 80px;
+}
+
+.footer_nav_item.drop .footer_nav_title {
+  position: relative;
+  z-index: 0;
+}
+
+.footer_nav_item.drop .footer_nav_title span {
+  background-color: #022257;
+  padding-right: 15px;
+}
+
+.footer_nav_item.drop .footer_nav_title::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #58718C;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+}
+
+.footer_nav_item .footer_nav_list a {
+  margin-right: 30px;
+}
+
+.footer_nav_item .footer_nav_list a:last-child {
+  margin-right: 0;
+}
+
+.footer_nav_item:last-child {
+  margin-right: 0;
 }
 
 .footer_certify {
@@ -921,6 +970,13 @@ input[type="number"] {
   .footer_nav_other, .footer_nav_media {
     width: auto;
     padding-right: 50px;
+  }
+  .footer_nav_item {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 

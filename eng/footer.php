@@ -1,7 +1,30 @@
 <footer class="footer">
     <div class="container">
-        <nav class="footer_nav d-flex flex-lg-nowrap flex-wrap">
-            <div class="footer_nav_other">
+        <nav class="footer_nav d-lg-flex flex-lg-nowrap flex-wrap">
+            <div class="footer_nav_item">
+                <a href="./about.php" class="footer_nav_title">About Us</a>
+            </div>
+            <div class="footer_nav_item">
+                <a href="./contact.php" class="footer_nav_title">Contact</a>
+            </div>
+            <div class="footer_nav_item drop">
+                <h3 class="footer_nav_title"><span>Media</span></h3>
+                <div class="footer_nav_list d-flex flex-wrap">
+                    <a href="./news.php">News</a>
+                    <a href="">Exhibitions</a>
+                    <a href="./catalogut.php">Catalogue</a>
+                    <a href="./video.php">Video</a>
+                </div>
+            </div>
+            <div class="footer_nav_item drop">
+                <h3 class="footer_nav_title"><span>Products</span></h3>
+                <div class="footer_nav_list d-flex flex-wrap">
+                    <a href="./product-list.php">Equipment</a>
+                    <a href="./product-list.php">Abrasives</a>
+                    <a href="./product-list.php">Spare Parts</a>
+                </div>
+            </div>
+            <!-- <div class="footer_nav_other">
                 <a href="./about.php" class="footer_nav_title">About Us</a>
                 <a href="./contact.php" class="footer_nav_title">Contact</a>
             </div>
@@ -42,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </nav>
         <div class="d-flex align-items-center justify-content-between flex-wrap">
             <div class="footer_certify d-flex align-items-center flex-wrap">
