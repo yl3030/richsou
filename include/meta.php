@@ -8,4 +8,4 @@
 <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
 <link rel="stylesheet" href="../css/swiper/swiper-bundle.min.css">
 <link rel="stylesheet" href="../css/aos/aos.css">
-<link rel="stylesheet" href="../css/style.css?v=20230807">
+<link rel="stylesheet" href="../css/style.css?v=20230914">
