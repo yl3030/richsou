@@ -4104,6 +4104,7 @@ input[type="number"] {
   }
   .contact_inform {
     width: 100%;
+    position: static;
   }
   .contact_inform_list {
     margin-bottom: 30px;
@@ -4112,6 +4113,9 @@ input[type="number"] {
     width: 294px;
     height: 153px;
     padding: 0;
+  }
+  .contact_inform::after {
+    display: none;
   }
 }
 
