@@ -1,8 +1,9 @@
 .contact {
+    padding-top: 45px;
     &_inner {
         position: relative;
         width: 100%;
-        margin-bottom: 65px;
+        margin-bottom: 130px;
     }
     &_form {
         padding: 70px 120px 70px 65px;
@@ -83,7 +84,8 @@
     }
     &_map {
         width: 100%;
-        padding-bottom: 30%;
+        // padding-bottom: 30%;
+        height: 540px;
         position: relative;
         iframe {
             position: absolute;
@@ -131,7 +133,9 @@
             }
         }
         &_map {
-            padding-bottom: 45%;
+            // padding-bottom: 45%;
+            // height: 0;
+            height: 80vh;
         }
     }
     @media screen and (max-width: 767px) {

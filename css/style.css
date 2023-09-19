@@ -3954,10 +3954,14 @@ input[type="number"] {
   width: 100%;
 }
 
+.contact {
+  padding-top: 45px;
+}
+
 .contact_inner {
   position: relative;
   width: 100%;
-  margin-bottom: 65px;
+  margin-bottom: 130px;
 }
 
 .contact_form {
@@ -4066,7 +4070,7 @@ input[type="number"] {
 
 .contact_map {
   width: 100%;
-  padding-bottom: 30%;
+  height: 540px;
   position: relative;
 }
 
@@ -4118,7 +4122,7 @@ input[type="number"] {
     display: none;
   }
   .contact_map {
-    padding-bottom: 45%;
+    height: 80vh;
   }
 }
 
